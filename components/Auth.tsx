@@ -27,7 +27,7 @@ export default function Auth() {
       password: password,
     });
 
-    console.log("error", error);
+    console.log("error wow", error);
 
     if (error) Alert.alert(error.message);
     setLoading(false);
